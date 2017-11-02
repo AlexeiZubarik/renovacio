@@ -59,7 +59,8 @@ hr {
   border-color: #2d2d2d;
 }
 .navbar-inverse .navbar-nav > .active > a {
-  background-color: #C0270F;
+  background-color: #66CDAA;
+  border-radius: 20px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -117,7 +118,7 @@ hr {
   text-align: center;
 }
 
-#dg h4 {
+#dg h4, #aboutUs h4:first-child {
   font-size: 40px;
 }
 
