@@ -60,7 +60,7 @@ hr {
   border-color: #2d2d2d;
 }
 .navbar-inverse .navbar-nav > .active > a {
-  background-color: #66CDAA;
+  background-color: #C0270F;
   border-radius: 20px;
 }
 
@@ -121,7 +121,7 @@ hr {
 }
 
 #dg h4, #aboutUs h4:first-child {
-  font-size: 40px;
+  
 }
 
 .tilt {
