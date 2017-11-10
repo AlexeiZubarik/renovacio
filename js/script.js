@@ -49,8 +49,9 @@ var autoplaySlider = $('#autoplay').lightSlider({
 });
 $('#total').text(autoplaySlider.getTotalSlideCount());
 
-$('#slider1').lightSlider({
-  item: 1,
-  slideMargin:0,
-  loop:true
+$('#slider1, #slider2, #slider3, #slider4, #slider5, #slider6').lightSlider({
+  item: 4,
+  auto: true,
+  loop: true,    
+  pauseOnHover: true,
 });
