@@ -87,13 +87,20 @@ var autoplaySlider = $('#autoplay').lightSlider({
   pauseOnHover: true,
   onBeforeSlide: function (el) {
     $('#current').text(el.getCurrentSlideCount());
+  },
+  onSliderLoad: function() {
+    $('#autoplay').removeClass('cS-hidden');
   } 
 });
 $('#total').text(autoplaySlider.getTotalSlideCount());
 
 $('#slider1, #slider2, #slider3, #slider4, #slider5, #slider6').lightSlider({
-  item: 4,
+  item: 1,
   auto: true,
   loop: true,    
   pauseOnHover: true,
+  onSliderLoad: function() {
+    $('#slider1, #slider2, #slider3, #slider4, #slider5, #slider6').removeClass('cS-hidden');
+  }
 });
+
