@@ -114,7 +114,7 @@ hr {
   font-size: 25px;
 }
 
-#dg {
+#dg1, #dg2 {
   background: #e0e0e0;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -197,6 +197,10 @@ hr {
   padding-bottom: 100px;
 }
 
+.text-field i{
+  font-size: 60px;
+  padding: 10px;
+}
 /* .text-field p {
   display: none;
 } */
@@ -211,6 +215,7 @@ hr {
   color: #C0270F;
   padding-left: 10px; 
   padding-right: 10px;
+  vertical-align: sub;
 }
 
 .text-block {
@@ -225,6 +230,10 @@ hr {
   margin-bottom: 25px
 }
 
+#slider1, #slider2, #slider3
+#slider4, #slider5, #slider6  {
+  display: none;
+}
 /* form input {
   margin-bottom: 10px;
   padding: 10px;
